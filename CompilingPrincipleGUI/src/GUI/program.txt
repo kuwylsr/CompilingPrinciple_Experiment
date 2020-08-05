@@ -1,0 +1,22 @@
+public class test {
+	/* aaaaaaaaaaaa */
+	public static void main(String args[]) throws Exception {
+	  	int a = 100.;
+	  	int E = 001/;
+	  	int;
+	  	int in ;
+	  	int b = 2/3; 1.5
+	  	double c = 12E+3;
+		double L = 12E-;
+	  	while(a>=90) {
+	  		a--;
+	  		a = aE+3;
+	  	}
+	  	int f = 1.111.1;
+	  	ººÓï´íÎó
+		
+	
+  }
+
+}
+/* bm2

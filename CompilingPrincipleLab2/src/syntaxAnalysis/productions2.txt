@@ -1,0 +1,10 @@
+P ¡ú D S ;
+D ¡ú T L ;
+T ¡ú int
+L ¡ú id
+E ¡ú E + T
+E ¡ú T
+T ¡ú F
+F ¡ú id
+F ¡ú digit
+S ¡ú id = E

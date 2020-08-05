@@ -1,0 +1,14 @@
+int a ;
+double b ;
+int [ 5 ] c ;
+s = c [ 1 ] ; 
+if id >= 3 then id = id ; 
+a = a + 1;
+a = 1 b;
+b = 1 ( 2.2 * 4 );
+a = 1 + 3 ) ;
+b =  + 2;
+a = 1 + ;
+if a == 5 then a = a + 1; else b = b + 1;
+while b >= 3 do a = a - 1;
+call fuc ( x1 , x2 

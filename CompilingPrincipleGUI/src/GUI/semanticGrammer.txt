@@ -1,0 +1,48 @@
+P ¡ú program id D ; S
+D ¡ú D ; D
+D ¡ú List : T
+D ¡ú procedure id D ; S
+List ¡ú List , id
+List ¡ú id
+T ¡ú int
+T ¡ú real
+T ¡ú array C of T
+T ¡ú record D
+D ¡ú id : T
+T ¡ú record D end
+S ¡ú Left := E
+E ¡ú E + E
+E ¡ú E * E
+E ¡ú - E
+E ¡ú ( E )
+E ¡ú Left
+E ¡ú int
+E ¡ú real
+E ¡ú string
+Left ¡ú EList ]
+Left ¡ú id
+EList ¡ú EList , E
+EList ¡ú id [ E
+EList ¡ú EList , E
+EList ¡ú E
+B ¡ú B or B
+B ¡ú B and B
+B ¡ú B not B
+B ¡ú ( B )
+B ¡ú E > E
+B ¡ú E < E
+B ¡ú E >= E
+B ¡ú E <= E
+B ¡ú E <> E
+B ¡ú E = E
+B ¡ú true
+B ¡ú false
+S ¡ú if B then S
+S ¡ú if B then S else S
+S ¡ú while B do S
+L ¡ú L ; S
+L ¡ú S
+S ¡ú for id := E to E step E do S
+S ¡ú repeat S until B
+S ¡ú begin L end
+C ¡ú [ int ]

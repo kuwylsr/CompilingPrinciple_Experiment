@@ -1,0 +1,28 @@
+P1 → P
+P → D
+P → S
+S → S S
+/*声明*/
+D → D D | D S | T id ;
+T → X C
+T → X
+C → [ digit ]
+X → int | long | double | float
+/*赋值语句*/
+S → A
+S → L = E ;
+A → id = E ;
+E → E + T | E - T | T | L
+T → T * F | T / F | F
+F → ( E ) | id | digit | - F
+L → id [ E ] | L [ E ]
+/*控制流语句*/
+S → MS | OS | while B do S
+MS → if B then MS else MS | A
+OS → if B then S | if B then MS else OS
+B → B or B | B and B | not B | ( B ) | E Relop E | true | false
+Relop → < | <= | == | != | > | >=
+/* 过程调用*/
+S → call id ( Elist )
+Elist → Elist , E
+Elist → E

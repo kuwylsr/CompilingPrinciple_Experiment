@@ -1,0 +1,53 @@
+D -> D ; D
+D -> List : T
+D -> procedure id D ; S
+List -> List , id
+List -> id
+T -> int
+T -> real
+T -> array C of T
+T -> record D
+D -> id : T
+T -> record D end
+S -> Left := E
+E -> E + E
+E -> E * E
+E -> - E
+E -> ( E )
+E -> Left
+E -> int
+E -> recall
+E -> string
+Left -> EList ]
+Left -> id
+EList -> EList , E
+EList -> id [ E
+S -> call id ( EList )
+EList -> EList , E
+EList -> E
+S -> return E
+B -> B or B
+B -> B and B
+B -> B not B
+B -> ( B )
+B -> E > E
+B -> E < E
+B -> E >= E
+B -> E <= E
+B -> E <> E
+B -> E = E
+B -> true
+B -> false
+S -> if B then S
+S -> if B then S else S
+S -> while B do S
+L -> L ; S
+L -> S
+S -> read ( List )
+S -> readln ( List )
+S -> write ( EList )
+S -> writeln ( EList ) 
+S -> for id := E to E step E do S
+S -> repeat S until B
+S -> begin L end
+C -> [ int ]
